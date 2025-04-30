@@ -5,7 +5,7 @@ project(JogoDasCadeirasConcurrente)
 
 # Define o padrão C++
 set(CMAKE_CXX_STANDARD 20)
-set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Adiciona o diretório de código fonte
 add_executable(JogoDasCadeiras src/main.cpp)
